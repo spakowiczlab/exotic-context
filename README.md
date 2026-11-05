@@ -17,9 +17,9 @@ Consistent processing does not eliminate differences caused by sample collection
 
 ## Processing tracks and current data
 
-The initial focus is Human Microbiome Project (HMP) data processed through [exotic](https://github.com/spakowiczlab/exotic) and [bioBakery workflows](https://github.com/biobakery/biobakery_workflows). Each track retains its own feature definitions and output conventions. Comparisons across studies should use the same processing profile; cross-pipeline mappings require their own documented transformations.
+The initial focus is Human Microbiome Project (HMP) data processed through [{exotic}](https://github.com/spakowiczlab/exotic) and [bioBakery workflows](https://github.com/biobakery/biobakery_workflows). Each track retains its own feature definitions and output conventions. Comparisons across studies should use the same processing profile; cross-pipeline mappings require their own documented transformations.
 
-The submitted HMP exotic analysis code is in [`workflows/process/exotic/`](workflows/process/exotic/). It includes the original Slurm submission scripts and accompanying metadata snapshots. The scripts retain their original HPC settings and run-specific assumptions; see the workflow README before running them.
+The submitted HMP {exotic} analysis code is in [`workflows/process/exotic/`](workflows/process/exotic/). It includes the original Slurm submission scripts and accompanying metadata snapshots. The scripts retain their original HPC settings and run-specific assumptions; see the workflow README before running them.
 
 Existing HMP count and abundance tables remain at the repository root. They have not yet been linked to a verified release. The standardized metadata under `datasets/hmp1/`, the processing profiles, and the release manifests are draft templates awaiting the original run details. The reported bioBakery “v4” label still needs to be resolved into exact tool and database versions. Confirm the HMP phase and subset before finalizing the provisional `hmp1` dataset ID.
 
@@ -39,7 +39,7 @@ micro-context/
 ├── workflows/
 │   ├── download/               # Reserved for input retrieval and verification
 │   ├── process/
-│   │   └── exotic/             # Submitted HMP exotic code and run snapshots
+│   │   └── exotic/             # Submitted HMP {exotic} code and run snapshots
 │   └── export/                 # Reserved for standardized output generation
 ├── releases/<dataset>/<profile>/ # Release manifests linking data and provenance
 ├── schemas/                    # JSON Schema contracts for metadata and releases

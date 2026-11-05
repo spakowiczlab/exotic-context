@@ -1,6 +1,6 @@
-# exotic: HMP gut processing
+# {exotic}: HMP gut processing
 
-HMP gut processing for the [exotic pipeline](https://github.com/spakowiczlab/exotic), using KrakenUniq/Bracken. See the upstream repository for pipeline documentation, package usage, and database information. The exact upstream revision used for these results remains to be recorded in [`profiles/exotic-001.yaml`](../../../profiles/exotic-001.yaml).
+HMP gut processing for the [{exotic} pipeline](https://github.com/spakowiczlab/exotic), using KrakenUniq/Bracken. See the upstream repository for pipeline documentation, package usage, and database information. The exact upstream revision used for these results remains to be recorded in [`profiles/exotic-001.yaml`](../../../profiles/exotic-001.yaml).
 
 Analysis code originally uploaded under `HMP_gut_analysis_code/`, relocated here without changing the submitted scripts or supporting metadata.
 

@@ -1,6 +1,6 @@
 # HMP starter dataset (draft)
 
-This directory is reserved for the HMP subset already processed by the lab through EXOTIC and bioBakery. Confirm that `hmp1` is the correct phase before adding records; rename the dataset directory and references if necessary.
+This directory is reserved for the HMP subset already processed by the lab through {exotic} and bioBakery. Confirm that `hmp1` is the correct phase before adding records; rename the dataset directory and references if necessary.
 
 ## Prepare the existing data
 
