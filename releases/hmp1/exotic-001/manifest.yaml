@@ -1,0 +1,14 @@
+schema_version: "1.0"
+release_id: hmp1-exotic-001-r001
+dataset_id: hmp1
+profile_id: exotic-001
+status: draft
+source_commit: unknown
+created_at: unknown
+input_manifest_sha256: unknown
+profile_sha256: unknown
+sample_status: [] # Each entry: sample_id, status (success/excluded/failed), reason
+qc_summary: {}
+outputs: [] # Each entry: product, url, size_bytes, sha256, format, units
+citations: []
+notes: "Draft only. No output files have been inventoried or verified."
