@@ -30,8 +30,8 @@ micro-context/
 ├── datasets/
 │   └── hmp1/                   # Source description and curated metadata templates
 │       ├── dataset.yaml        # Study scope, accessions, and selection criteria
-│       ├── samples.tsv         # Biological samples and subject metadata
-│       ├── runs.tsv            # Sequencing runs, input URLs, and checksums
+│       ├── samples.tsv        # Biological samples and subject metadata
+│       ├── runs.tsv           # Sequencing runs, input URLs, and checksums
 │       └── metadata_mapping.tsv
 ├── profiles/                   # Pipeline, software, database, and parameter records
 │   ├── exotic-001.yaml
