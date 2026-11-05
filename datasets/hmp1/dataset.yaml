@@ -1,0 +1,17 @@
+schema_version: "1.0"
+dataset_id: hmp1
+status: draft
+title: "HMP subset processed by the Spakowicz Lab — scope to confirm"
+source_phase: unknown
+source_accessions: []
+source_urls: []
+source_citations: []
+source_terms_url: unknown
+metadata_retrieved_at: unknown
+assay: unknown
+inclusion_criteria: []
+exclusion_criteria: []
+samples_file: samples.tsv
+runs_file: runs.tsv
+metadata_mapping_file: metadata_mapping.tsv
+notes: "Confirm HMP phase, assay, body sites, and selected runs before publication."

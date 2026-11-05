@@ -39,11 +39,29 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
-# pkgdown site
-docs/
 
 # translation temp files
 po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Local data and computational outputs
+/data/
+/results/
+/scratch/
+/work/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.cram
+*.crai
+*.sra
+*.sif
+*.smk/
+.nextflow*
+__pycache__/
+.DS_Store

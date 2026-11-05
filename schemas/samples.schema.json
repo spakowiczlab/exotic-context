@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Parsed sample TSV row",
+  "type": "object",
+  "required": [
+    "sample_id",
+    "source_sample_id",
+    "subject_id",
+    "body_site",
+    "collection_time",
+    "study_group"
+  ],
+  "properties": {
+    "sample_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_sample_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "subject_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "body_site": {
+      "type": "string",
+      "minLength": 1
+    },
+    "collection_time": {
+      "type": "string",
+      "minLength": 1
+    },
+    "study_group": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": true
+}

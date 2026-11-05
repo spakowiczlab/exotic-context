@@ -1,0 +1,21 @@
+schema_version: "1.0"
+profile_id: exotic-001
+status: draft
+pipeline:
+  name: exotic
+  repository: https://github.com/spakowiczlab/exotic
+  revision: unknown
+  reported_version: unknown
+software: [] # Each entry: name, version, environment/container digest
+reference_databases: [] # Each entry: name, release, source_url, sha256
+parameters: {}
+preprocessing:
+  quality_filtering: unknown
+  host_filtering: unknown
+  host_reference: unknown
+  multiple_run_handling: unknown
+exports:
+  feature_identifiers: unknown
+  units: unknown
+  filtering: unknown
+notes: "Recover provenance from existing runs; unknown values are not reproducibility guarantees."

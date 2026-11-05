@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the specific release used, together with its source datasets, pipelines, and reference databases."
+title: micro-context
+type: software
+authors:
+  - family-names: Spakowicz
+    given-names: Dan
+repository-code: https://github.com/spakowiczlab/micro-context
+license: MIT
+abstract: "Public microbiome datasets reprocessed with versioned lab workflows and reference databases for consistent comparison."
