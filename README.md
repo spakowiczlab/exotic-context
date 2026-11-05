@@ -1,14 +1,14 @@
-# micro-context <img src="man/figures/micro-context-hex.png" align="right" width="150" alt="micro-context hex sticker" />
+# exotic-context <img src="man/figures/exotic-context-hex.png" align="right" width="150" alt="exotic-context hex sticker" />
 
-**Public microbiome data, processed consistently for the lab.**
+**Public microbiome data reprocessed with {exotic}’s custom databases and contaminant filters.**
 
-micro-context is a shared collection of public microbiome datasets reprocessed with the Spakowicz Lab’s pipelines and reference databases. It gives lab members reusable reference data for putting new results in context, without repeating the work of finding inputs, reconstructing metadata, and processing the same studies for each project.
+exotic-context is a shared collection of public microbiome datasets reprocessed with [{exotic}](https://github.com/spakowiczlab/exotic)’s custom reference databases and contaminant filters. It gives lab members reusable reference data for putting new results in context, without repeating the work of finding inputs, reconstructing metadata, and processing the same studies for each project.
 
-The project brings together dataset descriptions, analysis code, processing configurations, and links to reusable outputs. It is organized as a data resource and workflow repository; an installable R package is not currently provided.
+The project’s focus is making public reference data available under the same {exotic} database and contaminant-filtering choices used for lab analyses. It brings together dataset descriptions, analysis code, processing configurations, and links to reusable outputs. It is organized as a data resource and workflow repository; an installable R package is not currently provided.
 
 ## Goals
 
-- **Make public data comparable.** Apply consistent software, reference databases, and parameters within each processing track to reduce computational differences between studies.
+- **Make public data comparable.** Apply {exotic}’s custom reference databases, contaminant filters, and versioned processing settings consistently across studies.
 - **Process once and reuse.** Make curated metadata, abundance tables, and quality-control information available for recurring lab analyses.
 - **Keep results traceable.** Record source samples and sequencing runs, pipeline revisions, database releases, parameters, and output checksums.
 - **Make updates explicit.** Preserve released products and create new processing profiles when software, databases, or analytical conventions change.
@@ -17,7 +17,7 @@ Consistent processing does not eliminate differences caused by sample collection
 
 ## Processing tracks and current data
 
-The initial focus is Human Microbiome Project (HMP) data processed through [{exotic}](https://github.com/spakowiczlab/exotic) and [bioBakery workflows](https://github.com/biobakery/biobakery_workflows). Each track retains its own feature definitions and output conventions. Comparisons across studies should use the same processing profile; cross-pipeline mappings require their own documented transformations.
+The initial focus is Human Microbiome Project (HMP) data processed through [{exotic}](https://github.com/spakowiczlab/exotic). Outputs from [bioBakery workflows](https://github.com/biobakery/biobakery_workflows) provide a companion comparison track. Each track retains its own feature definitions and output conventions. Comparisons across studies should use the same processing profile; cross-pipeline mappings require their own documented transformations.
 
 The submitted HMP {exotic} analysis code is in [`workflows/process/exotic/`](workflows/process/exotic/). It includes the original Slurm submission scripts and accompanying metadata snapshots. The scripts retain their original HPC settings and run-specific assumptions; see the workflow README before running them.
 
@@ -26,7 +26,7 @@ Existing HMP count and abundance tables remain at the repository root. They have
 ## Repository structure
 
 ```text
-micro-context/
+exotic-context/
 ├── datasets/
 │   └── hmp1/                   # Source description and curated metadata templates
 │       ├── dataset.yaml        # Study scope, accessions, and selection criteria
@@ -73,4 +73,4 @@ The validator uses the Python standard library and checks required table headers
 
 Published releases identify the dataset selection, processing profile, source commit, and external output files. Preserve published manifests and data; subsequent corrections or additions receive a new release ID. Changes to processing conditions require a new profile.
 
-Code is [MIT licensed](LICENSE); source datasets retain their original terms. Cite the original datasets, pipelines, reference databases, and the specific micro-context release used. See [CITATION.cff](CITATION.cff).
+Code is [MIT licensed](LICENSE); source datasets retain their original terms. Cite the original datasets, pipelines, reference databases, and the specific exotic-context release used. See [CITATION.cff](CITATION.cff).

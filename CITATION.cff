@@ -1,10 +1,10 @@
 cff-version: 1.2.0
 message: "Please cite the specific release used, together with its source datasets, pipelines, and reference databases."
-title: micro-context
+title: exotic-context
 type: software
 authors:
   - family-names: Spakowicz
     given-names: Dan
-repository-code: https://github.com/spakowiczlab/micro-context
+repository-code: https://github.com/spakowiczlab/exotic-context
 license: MIT
-abstract: "Public microbiome datasets reprocessed with versioned lab workflows and reference databases for consistent comparison."
+abstract: "Public microbiome datasets reprocessed with {exotic}’s custom reference databases and contaminant filters for consistent comparison."

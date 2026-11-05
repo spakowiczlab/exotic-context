@@ -10,4 +10,4 @@ Preserve native pipeline outputs. Standardized exports must document orientation
 
 Retain draft status until inputs, profile, provenance, and outputs are verified. Set `status: published`, record the exact source commit and UTC creation timestamp, and attach a release tag. For later changes add `manifest-r002.yaml` (and subsequent versions) with a new release ID; retain previous manifests and external files unchanged. New processing conditions require a new profile directory.
 
-Cite the original study/data source, pipelines, databases, and specific micro-context release. The repository MIT license does not change source-data terms.
+Cite the original study/data source, pipelines, databases, and specific exotic-context release. The repository MIT license does not change source-data terms.
