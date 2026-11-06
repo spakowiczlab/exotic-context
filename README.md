@@ -21,7 +21,7 @@ The initial focus is Human Microbiome Project (HMP) data processed through [{exo
 
 The submitted HMP {exotic} analysis code is in [`workflows/process/exotic/`](workflows/process/exotic/). It includes the original Slurm submission scripts and accompanying metadata snapshots. The scripts retain their original HPC settings and run-specific assumptions; see the workflow README before running them.
 
-Existing HMP count and abundance tables remain at the repository root. They have not yet been linked to a verified release. The standardized metadata under `datasets/hmp1/`, the processing profiles, and the release manifests are draft templates awaiting the original run details. The reported bioBakery “v4” label still needs to be resolved into exact tool and database versions. Confirm the HMP phase and subset before finalizing the provisional `hmp1` dataset ID.
+The [HMP gut species count matrix](releases/hmp1/exotic-001/HMP_gut_species_counts_nonhost.tsv) and [renormalized non-host relative abundance matrix](releases/hmp1/exotic-001/HMP_gut_species_relative_abundance_nonhost_renormalized.tsv) are stored alongside the draft {exotic} release manifest. The standardized metadata under `datasets/hmp1/`, the processing profiles, and the release manifests are draft templates awaiting the original run details. The reported bioBakery “v4” label still needs to be resolved into exact tool and database versions. Confirm the HMP phase and subset before finalizing the provisional `hmp1` dataset ID.
 
 ## Repository structure
 
